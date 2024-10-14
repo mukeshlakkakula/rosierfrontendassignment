@@ -1,0 +1,22 @@
+.why_people_love_main_container {
+  background-color: #ede3e3;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #382c23bf;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.why_people_images_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+
+.amita_images {
+  width: 500px;
+  height: 213px;
+}

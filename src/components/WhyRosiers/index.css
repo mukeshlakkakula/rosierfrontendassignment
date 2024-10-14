@@ -1,0 +1,40 @@
+.why_rosier_main_container {
+  background-color: #e7926c;
+  padding: 20px;
+}
+
+.Why_rosier_map_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+h2,
+h2.title {
+  font-family: "Libre Caslon Text" !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  font-size: 25px !important;
+  line-height: 1.2em !important;
+  letter-spacing: 0px !important;
+}
+
+.element_para {
+  color: #ffffffbf;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.icons_style {
+  height: 62.5px;
+  width: 62.5px;
+}
+
+.why_map_inner_container {
+  width: 188px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

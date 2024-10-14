@@ -1,0 +1,62 @@
+/* src/ImageSlider.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.slider {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  user-select: none;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.sliderImg {
+  width: 100%;
+}
+
+.pd_sl_2 {
+  padding: 5px;
+}
